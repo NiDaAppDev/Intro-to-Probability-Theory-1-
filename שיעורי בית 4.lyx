@@ -528,12 +528,154 @@ Supp\left(\probability_{1}\right)=Supp\left(\probability_{2}\right)=S\subseteq\O
 (א)
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ראינו בהוכחה מהכיתה כי 
+\begin_inset Formula $f\left(X\right)\overset{d}{=}f\left(Y\right)\Leftarrow X\overset{d}{=}Y$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathbb{P}_{f\left(X\right)}\left(S\right)=\probability\left(f\left(X\right)\in S\right)=\probability\left(X\in f^{-1}\left(S\right)\right)=\probability\left(Y\in f^{-1}\left(S\right)\right)=\probability\left(f\left(Y\right)\in S\right)=\probability_{f\left(Y\right)}\left(S\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בכיוון השני,
+ מכיוון שהפונקציה חח
+\begin_inset Quotes erd
+\end_inset
+
+ע,
+ נוכל לכתוב 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(X\in S\right)=\probability\left(f\left(X\right)\in f\left(S\right)\right)=\probability\left(f\left(Y\right)\in f\left(S\right)\right)=\probability\left(Y\in S\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 (ב)
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לא נכון,
+ דוג' נגדית:
+\end_layout
+
+\begin_layout Standard
+נגדיר ניסוי של הטלת מטבע הוגן,
+ ואת המשתנה המקרי 
+\begin_inset Formula $X$
+\end_inset
+
+ להיות
+\begin_inset Formula 
+\[
+X\left(H\right)=1
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+X\left(T\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ונגדיר את המשתנה המקרי 
+\begin_inset Formula $Y$
+\end_inset
+
+ להיות 
+\begin_inset Formula 
+\[
+Y\left(H\right)=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Y\left(T\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל כי 
+\begin_inset Formula 
+\[
+\probability\left(X=Y\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובכל זאת,
+ קל לראות כי 
+\begin_inset Formula $X\overset{d}{=}Y$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection*
 (ג)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection*
+(ד)
+\end_layout
+
+\begin_layout Subsection*
+(ה)
 \end_layout
 
 \begin_layout Section*
