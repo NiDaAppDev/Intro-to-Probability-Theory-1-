@@ -667,15 +667,423 @@ Y\left(T\right)=1
 \end_layout
 
 \begin_layout Standard
+נניח בשלילה כי 
+\begin_inset Formula $\probability\left(X=Y\right)=0$
+\end_inset
 
+,
+ אז הם אינם בלתי תלויים,
+ מכיוון שידיעה של 
+\begin_inset Formula $X$
+\end_inset
+
+,
+ תתן לנו מידע על מה 
+\begin_inset Formula $Y$
+\end_inset
+
+ לא יכול להיות.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\probability\left(X=Y\right)>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכיוון ש
+\begin_inset Formula $X\overset{d}{=}Y$
+\end_inset
+
+,
+ 
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=\probability\left(Y=x\right)=p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $p\in\left[0,1\right]$
+\end_inset
+
+ כלשהו.
+\end_layout
+
+\begin_layout Standard
+ומאי תלות מתקיים 
+\begin_inset Formula 
+\[
+\probability\left(X=Y\right)=\probability\left(X=x\land Y=x\right)=\probability\left(X=x\right)\probability\left(Y=x\right)\forall x\in\real
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובסך הכול
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)\probability\left(Y=x\right)=p^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $p$
+\end_inset
+
+ אחד לפחות חיובי,
+ אחרת לכל 
+\begin_inset Formula $x$
+\end_inset
+
+ היינו מקבלים ש
+\begin_inset Formula $\probability\left(X=x\right)=0$
+\end_inset
+
+,
+ כלומר ההסתברות לכל מאורע היא 
+\begin_inset Formula $0$
+\end_inset
+
+,
+ לא אפשרי.
+\end_layout
+
+\begin_layout Standard
+ולכן מכיוון ש
+\begin_inset Formula $p>0$
+\end_inset
+
+,
+ נקבל כי 
+\begin_inset Formula $p^{2}>0$
+\end_inset
+
+,
+ ולכן 
+\begin_inset Formula 
+\[
+\probability\left(X=Y\right)>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וסיימנו.
 \end_layout
 
 \begin_layout Subsection*
 (ד)
 \end_layout
 
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תמיד מתקיים
+\begin_inset Formula 
+\[
+\probability\left(X=X\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כיוון שמשתנה מקרי שווה תמיד לעצמו.
+\end_layout
+
+\begin_layout Standard
+מאי תלות,
+ מתקיים 
+\begin_inset Formula 
+\[
+\probability\left(X=X\right)=\probability\left(X=x\land X=x\right)=\probability\left(X=x\right)\probability\left(X=x\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=\probability\left(X=x\right)\probability\left(X=x\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+או 
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון שסכום ההסתברויות תמיד חייב להיות 
+\begin_inset Formula $1$
+\end_inset
+
+,
+ יכול להיות בדיוק ערך אחד כזה שייתן 
+\begin_inset Formula $\probability\left(X=x\right)=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+זהו בדיוק אותו 
+\begin_inset Formula $c\in\real$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection*
 (ה)
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון ש
+\begin_inset Formula $X\overset{d}{=}X^{2}$
+\end_inset
+
+,
+ מתקיים 
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=\probability\left(X^{2}=x\right)=p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ 
+\begin_inset Formula 
+\[
+\probability\left(X^{2}=x\right)=\probability\left(X=\sqrt{x}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מחוקי המתמטיקה.
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=\probability\left(X^{2}=x\right)=\probability\left(X=\sqrt{x}\right)=p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $x\in\real$
+\end_inset
+
+,
+ מתקיים אם כך
+\begin_inset Formula 
+\[
+\probability\left(X=x\right)=\probability\left(X=\sqrt{x}\right)=\probability\left(X=\sqrt{\sqrt{x}}\right)=...=\probability\left(X=\sqrt[2n]{x}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $x\notin\left\{ 0,1\right\} $
+\end_inset
+
+,
+ ו
+\begin_inset Formula $p>0$
+\end_inset
+
+,
+ נקבל כי ההסתברות לכל 
+\begin_inset Formula $x$
+\end_inset
+
+ בסדרה 
+\begin_inset Formula $\left(\sqrt[2n]{x}\right)_{n=1}^{\infty}$
+\end_inset
+
+ מקבל הסתברות 
+\begin_inset Formula $p$
+\end_inset
+
+,
+ כלומר 
+\begin_inset Formula 
+\[
+\sum_{n=1}^{\infty}\probability\left(\sqrt[2n]{x}\right)=\sum_{n=1}^{\infty}p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שאיננו חסום,
+ בסתירה לכך שההסתברות חסומה ע
+\begin_inset Quotes erd
+\end_inset
+
+י
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן,
+ 
+\begin_inset Formula $x\in\left\{ 0,1\right\} $
+\end_inset
+
+,
+ כיוון שאז 
+\begin_inset Formula $\left(\sqrt[2n]{x}\right)_{n=1}^{\infty}$
+\end_inset
+
+ סדרה קבועה.
+\end_layout
+
+\begin_layout Standard
+מכך נוכל להסיק כי 
+\begin_inset Formula $X=1$
+\end_inset
+
+ באיזשהי 
+\begin_inset Formula $p$
+\end_inset
+
+,
+ ולכן 
+\begin_inset Formula $X=0$
+\end_inset
+
+,
+ באיזשהי 
+\begin_inset Formula $1-p$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן,
+ 
+\begin_inset Formula $X\sim Ber\left(p\right)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section*
